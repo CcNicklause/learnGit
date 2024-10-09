@@ -13,7 +13,7 @@ export default defineConfig({
     host: 'localhost',
     port: 8080,
     proxy: {
-      './api': 'http://api-driver.marsview.cc'
+      '/api': 'http://api-driver.marsview.cc'
     }
   },
   plugins: [react()]
